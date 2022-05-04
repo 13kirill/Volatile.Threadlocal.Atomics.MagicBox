@@ -15,10 +15,8 @@ public class Main {
     private static BoxThread boxThread = new BoxThread();
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-
         userThread.start();
         boxThread.start();
-
     }
 
     static class UserThread extends Thread {
